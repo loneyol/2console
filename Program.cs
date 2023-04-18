@@ -8,7 +8,7 @@ public class Program
     {
         UserList userList = new UserList();
         userList.CreateUser("fullname1", "login1", "pass1", "group1", "23.04.2023", "18.04.2023", 0);
-        userList.CreateUser("fullname2", "login2", "pass2", "group2", "23.04.2023", "18.04.2023", 1);
+        userList.CreateUser("fullname2", "login2", "pass23", "group2", "23.04.2023", "18.04.2023", 1);
 
         List<User> users = userList.GetUsers();
         foreach (User user in users)
